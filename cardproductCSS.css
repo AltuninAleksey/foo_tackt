@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+  text-decoration: none;  
+  color: #000;
+}
+.background{
+    background-color: #E5E5E5;
+    padding-bottom: 60px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #2E2E2E;
+}
+nav .container{
+    display: flex;
+}
+.nav__text{
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-family: Nunito Sans;
+    font-size: 11pt;
+    font-weight: 700;
+
+    color: #9b9b9b;
+}
+
+.join{
+    display: flex;
+    font-family: Nunito Sans;
+    font-size: 14pt;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: 0;
+}
+.join .textjoin{
+    margin-top: 15px;
+}
+.join .telegram,.whatsup,.vk{
+    cursor: pointer;
+}
+    
+
+
+/* Шапка */
+.head{
+    margin-bottom: 30px;
+}
+
+.head .topblock{
+    max-height: 130px;
+    margin-top: 40px;
+    display: flex;
+}
+.logo{
+    min-width: 122px;
+    width: 122px;
+    height: 80px;
+    background: url(img/logo.png);
+}
+.head .topblock .text{
+    margin-left: 30px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.head .topblock .map_time{
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left: 70px;
+}
+.head .topblock .map_time .map{
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.head .topblock .map_time .time{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.phone{
+    margin-left: 50px;
+}
+.phone .mobilephone{
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 10px;  
+}
+.phone .email{
+    color: #000;
+    text-decoration: none;
+}
+/*botblock head нижний блок шапки*/
+.botblock{
+    margin-top: 10px;
+    display: flex;
+}
+
+.redbutton{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 226px;
+    height: 50px;
+    background-color: #DB1414;
+    border: 0;
+    border-radius: 5px;
+    font-family: Nunito Sans;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+.redbutton svg{
+    margin-right: 13px;
+}
+
+.botblock input{
+
+    margin-top: 19px;
+    width: 750px;
+    height: 50px;
+    padding-left: 20px;
+}
+.blocktrash{
+    margin-left: 20px;
+    margin-top: 11px;
+}
+fieldset{
+    display: flex;
+    color: #BC1515;
+    padding-left: 15px;
+    padding-top: 19;
+    width: 192px;
+    height:58px;
+    border: solid 1px #9B9B9B;
+    border-radius: 4px;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+
+}
+.blocktrash svg{
+    margin-left: 20px;
+ 
+}
+fieldset .price{
+
+    margin-top: 5px;
+}
+fieldset legend{
+    color: #000;
+    padding-left: 5px;
+    margin-right: 5px;
+    width: 90px;
+    font-family: Nunito Sans;
+    font-size: 15pt;
+    font-weight: 600;
+    line-height: 19px;
+}
+fieldset .count{
+    top: 5px;
+    right: 40px;
+    position: absolute;
+}
+/*1 страница*/
+.page1{
+    background-color: #E5E5E5;
+
+}
+
+.menu{
+ 
+ 
+    max-width: 226px;
+}
+.menuandslider{
+    display: flex;
+}
+
+
+.menu *{
+    position: relative;
+    padding-top: 40px;
+    width: 226px;
+    height: 86px;
+    background-color: #535050;
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+.menu *:not(:last-child,svg){
+    border-bottom: 1px solid #5F5F5F; ;
+}
+.menu svg{
+    padding-top: 0;
+    margin-top: 0;
+    width: 34px;
+    height: 20px;
+    margin-bottom: 5px;
+    margin-right: 14px;
+    margin-left: 20px;  
+}
+.menu .arrow{
+    width: 10px;
+    position: absolute;
+    right: 5px;
+}
+.technic_namepage{
+    width: 100%;
+}
+.technic{
+    width: 100%;
+    background-color: #fff;
+    margin-left: 20px;
+}
+.technic .slider-nav{
+
+    width: 500px;
+}
+.info{
+    margin: 20px;
+}
+.info .text{
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.info .model{
+    font-family: Nunito Sans;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.info .articul{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9B9B9B;
+}
+.info .price{
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.count_button{
+    display: flex;
+}
+.count_button .count{
+    width: 160px;
+    height: 50px;
+    background: #F2F2F2;
+
+}
+.count_button button{
+    width: 262px;
+    height: 50px;
+    background: linear-gradient(180deg, #DB1414 0%, #BA0D0D 100%);
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 0;
+    border-radius: 6px;
+}
+.conectus{
+    margin-top: 20px;
+    display: flex;
+}
+.slider-for{
+    margin: 30px 20px;
+    max-width: 550px;
+    min-width: 500px;
+}
+
+
+.technic{
+    display: flex;
+}
+
+.maintextpage{
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 20px 20px;
+    
+}
+.technic .maintext{
+    font-family: Nunito Sans;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.conectus .text_conectus{
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.maintextpage{
+    display: flex;
+}
+.maintextpage .color{
+    color: #9b9b9b;
+}
+
+
+.product1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product2{
+    margin: 10px;
+    width: 130px;
+    height: 78px;
+}
+.product2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/*foother*/
+footer{
+    background: #2E2E2E;
+    border-bottom: 1px solid #3E3E3E;
+    padding-bottom: 50px;
+}
+footer .container{
+    display: flex;
+    border-bottom: 1px solid #3E3E3E;
+}
+footer .leftblock{
+    max-width: 600px ;
+    margin-right: 20px;
+}
+footer .container .topblock{
+    color: #fff;
+    display: flex;
+    margin-top: 50px;
+}
+footer .container .topblock .text{
+    margin-left: 15px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.leftblock .bottext{
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #fff;
+}
+.footer__nav{
+    display: flex;
+}
+.map_time_footer{
+    display: flex;
+}
+.map_time_footer .mapandtime{
+    margin-top: 50px;
+}
+.map_time_footer .map{
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #fff;
+}
+.map_time_footer .time{
+
+
+font-family: Nunito Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+    margin-top: 20px;
+    color: #fff;
+}
+.map_time_footer .phone{
+    margin-top: 50px;
+    color: #fff;
+}
+.map_time_footer .email{
+    color: #fff;
+}
